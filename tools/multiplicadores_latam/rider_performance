@@ -1,0 +1,25 @@
+# ⚡ Generador de Multiplicadores LATAM
+
+Herramienta web interna para calcular y ajustar multiplicadores de tarifa/comisión en tiempo real por país y segmento.
+
+---
+
+## 🔗 Links de Acceso
+* **Web App Ejecutable:** [Abrir Generador de Multiplicadores](https://script.google.com/a/macros/pedidosya.com/s/AKfycbyyZ80UM7XgfDdettpwkxiVyo7uGn1PfleqfdHiP7L-lnqMqLGA46Hyv8kMQOinkO1g3g/exec)
+* **Google Sheet Base (Configuración):** [Ver Sheet de Tarifas Base](https://docs.google.com/spreadsheets/d/TU_ID_DE_SHEET_ACA)
+
+---
+
+## 📋 ¿Qué hace esta herramienta?
+1. Consume las reglas de negocio de la pestaña `Config_LATAM` del Google Sheet asociado.
+2. Permite seleccionar país (AR, UY, CL, etc.) y segmento de rider.
+3. Devuelve el multiplicador sugerido para aplicar en la operación diaria.
+
+---
+
+## 🛠️ Mantenimiento y Cambios de Código
+* **Owner del Proyecto:** @nicolasrestrepo-hash / Equipo de Analytics
+* **Lógica Backend:** Ver archivo `Code.gs` en este mismo directorio.
+* **Interfaz Visual:** Ver archivo `Index.html` en este mismo directorio.
+
+> ⚠️ **Nota:** Si modificas el código en Google Apps Script, recuerda hacer la actualización en este repositorio y publicar un "Nuevo Despliegue" (New Deployment) en Apps Script para que los cambios se reflejen en la URL.
